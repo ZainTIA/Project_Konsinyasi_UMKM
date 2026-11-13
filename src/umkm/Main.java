@@ -7,6 +7,7 @@ import javax.swing.UIManager;
 
 public class Main {
     public static void main(String[] args) {
+        int a;
         try {
             UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
         } catch (Exception ignored) {}
@@ -15,6 +16,7 @@ public class Main {
             LoginForm loginView = new LoginForm();
             new LoginController(loginView);
             loginView.show();
+            
         });
     }
 }
