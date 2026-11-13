@@ -95,10 +95,8 @@ public class FormUtama {
         titleGroup.setOpaque(false);
         JLabel app = new JLabel("UMKM PRO");
         app.setForeground(Color.WHITE);
-        app.setFont(new Font("Segoe UI", Font.BOLD, 16));
-     
-        titleGroup.add(app);
-      
+        app.setFont(new Font("Segoe UI", Font.BOLD, 16));   
+        titleGroup.add(app);    
 
         brand.add(badge);
         brand.add(titleGroup);
