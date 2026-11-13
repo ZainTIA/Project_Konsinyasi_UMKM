@@ -9,7 +9,7 @@ public class LoginForm {
     private final JFrame frame;
     private final JTextField txtUser = new JTextField("admin");
     private final JPasswordField txtPass = new JPasswordField("admin123");
-    private final JButton btnLogin = new JButton("Login & Hubungkan Database");
+    private final JButton btnLogin = new JButton("Login");
 
     public LoginForm() {
         frame = new JFrame("Login - UMKM");
@@ -25,7 +25,7 @@ public class LoginForm {
         header.setOpaque(false);
         JLabel title = new JLabel("Masuk ke Dashboard UMKM ");
         title.setFont(new Font("Segoe UI", Font.BOLD, 20));
-        JLabel desc = new JLabel("Login Admin (admin / admin123)");
+        JLabel desc = new JLabel("Login (admin / admin123)");
         desc.setFont(new Font("Segoe UI", Font.PLAIN, 12));
         desc.setForeground(new Color(100, 116, 139));
         header.add(title);
